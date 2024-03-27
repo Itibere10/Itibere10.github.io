@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Itiberê Gonçalves Silva Filho</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="box">
+                <!-- Parte Superior-->
+                <div class="columns is-centered is-vcentered">
+                    <div class="column is-one-fifth">
+                        <!-- Foto de perfil -->
+                        <figure class="image">
+                            <img class="is-rounded" src="images/profile.jpg" alt="Foto de perfil" />
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <!-- Nome completo -->
+                        <h1 class="title has=text=centered">
+                            Itiberê Gonçalves Silva Filho
+                        </h1>
+                        <!-- Descrição Expressa -->
+                        <h1 class="subtitle">
+                            Analista DevOps Jr | Pós-graduado em Ciências de Dados e Inteligência Artificial |
+                            Engenheiro de Computação
+                        </h1>
+                        <!-- Botões de Links -->
+                        <div class="buttons is-centered is-vcentered">
+                            <!-- Telefone -->
+                            <button onclick="telefone()" class="button is-success" type="button">
+                                <span class="icon">
+                                    <img src="icons/telefone.png" type="icon"></i>
+                                </span>
+                                <span>Telefone</span>
+                            </button>
+                            <!-- E-Mail -->
+                            <button onclick="email()" class="button is-success" type="button">
+                                <span class="icon">
+                                    <img src="icons/email.png" type="icon"></i>
+                                </span>
+                                <span>E-mail</span>
+                            </button>
+                            <!-- GitHub -->
+                            <button onclick="linkedin()" class="button is-success" type="button">
+                                <span class="icon">
+                                    <img src="icons/linkedin.png" type="icon"></i>
+                                </span>
+                                <span>LinkedIn</span>
+                            </button>
+                            <!-- GitHub -->
+                            <button onclick="github()" class="button is-success" type="button">
+                                <span class="icon">
+                                    <img src="icons/github.png" type="icon"></i>
+                                </span>
+                                <span>GitHub</span>
+                            </button>
+                            <!-- Lattes -->
+                            <button onclick="lattes()" class="button is-success" type="button">
+                                <span class="icon">
+                                    <img src="icons/lattes.png" type="icon"></i>
+                                </span>
+                                <span>Lattes</span>
+                            </button>
+                        </div>
+                        <!-- Resumo e Idiomas -->
+                        <div class="box">
+                            <!-- Resumo -->
+                            <h1 class="subtitle">
+                                ◼ Sobre mim
+                            </h1>
+                            <h1 class="text">
+                                Graduado em Engenharia de Computação pela Universidade Federal do Pampa - UNIPAMPA e
+                                pós-graduado em Ciências de Dados e
+                                Inteligência Artificial pelo Centro Universitário Internacional - UNINTER. Atualmente,
+                                sou pós-graduando em Segurança e
+                                Defesa Cibernética no Centro Universitário Internacional - UNINTER. Também atuando com
+                                experiência profissional como Analista
+                                DevOps Jr na Compass.uol desde 2022 até o presente momento.
+                            </h1>
+                            <hr>
+                            <!-- Idiomas -->
+                            <h1 class="subtitle">
+                                ◼ Idiomas
+                            </h1>
+                            <div class="columns is-centered is-vcentered">
+                                <div class="column">
+                                    <strong>Português-Brasileiro:</strong> Nativo
+                                    <progress class="progress is-success" value="100" max="100"></progress>
+                                </div>
+                                <div class="column">
+                                    <strong>Inglês:</strong> Avançado
+                                    <progress class="progress is-success" value="75" max="100"></progress>
+                                </div>
+                                <div class="column">
+                                    <strong>Espanhol:</strong> Intermediário
+                                    <progress class="progress is-success" value="50" max="100"></progress>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Experiência Profissional -->
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">◼ Experiência Profissional</p>
+                        <buttons class="is-centered is-vcentered">
+                            <button onclick="expandir_profissional()" class="button is-success" type="button">
+                                Expandir/Recolher
+                            </button>
+                        </buttons>
+                    </header>
+                    <div id="profissional" class="card-content is-hidden">
+                        <div class="content">
+                            <div class="box">
+                                <h3>Analista DevOps Jr</h3>
+                                <p> <strong>Período:</strong> Junho de 2023 - atualmente </p>
+                                <p> <strong>Empresa:</strong> <a href="https://compass.uol/en/home/">Compass.uol</a>
+                                </p>
+                                <p>
+                                    <strong>Tecnologias utilizadas: </strong>
+                                    AWS / Azure / Azure Pipelines / Jenkins / Bitrise / Docker / Podman / Kubernetes /
+                                    Minikube / Argo CD / EKS
+                                    / ECR / Oracle Virtual Box / Python / SQS / SNS / Kafka / SonarQube / Windows /
+                                    Linux / Chocolatey / Helm
+                                    / Jira / Bitbucket / Miro / Confluence / Kibana / Nexus / DefectDojo / Dynatrace /
+                                    Grafana / Redis / Vagrant / Git
+                                </p>
+                            </div>
+                            <div class="box">
+                                <h3>DevOps Engineer</h3>
+                                <p> <strong>Período:</strong> Agosto de 2022 - Março de 2024 </p>
+                                <p> <strong>Empresa:</strong> <a href="https://www.natura.com.br/">Natura &CO</a>
+                                    (Terceirizado)</p>
+                                <p>
+                                    <strong>Tecnologias utilizadas: </strong>
+                                    AWS / Jenkins / Bitrise / Docker / Podman / Kubernetes / Minikube / Argo CD / EKS /
+                                    S3 / Lambda /
+                                    ECR / Python / SQS / SNS / SonarQube / Windows / Linux / Chocolatey / Helm /
+                                    Terraform /
+                                    Jira / Bitbucket / Miro / Confluence / Kibana / Nexus / DefectDojo / Dynatrace /
+                                    Grafana / Git
+                                </p>
+                            </div>
+                            <div class="box">
+                                <h3>Analista de Suporte Jr</h3>
+                                <p> <strong>Período:</strong> Abril de 2022 - Junho de 2023 </p>
+                                <p> <strong>Empresa:</strong> <a href="https://compass.uol/en/home/">Compass.uol</a>
+                                </p>
+                                <p>
+                                    <strong>Tecnologias utilizadas: </strong>
+                                    AWS / Jenkins / Linux / Python / Word / Excel / Docker / Kubernetes / Windows / Git
+                                    / Terraform
+                                </p>
+                            </div>
+                            <div class="box">
+                                <h3>Analista de Suporte Jr Trainee</h3>
+                                <p> <strong>Período:</strong> Janeiro de 2022 - Abril de 2022 </p>
+                                <p> <strong>Empresa:</strong> <a href="https://compass.uol/en/home/">Compass.uol</a>
+                                </p>
+                                <p>
+                                    <strong>Tecnologias utilizadas: </strong>
+                                    Jenkins / Linux / Microsoft Excel / Docker / Kubernetes / Windows / Git / RunDeck
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Experiência Acadêmica -->
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">◼ Experiência Acadêmica</p>
+                        <buttons class="is-centered is-vcentered">
+                            <button onclick="expandir_academica()" class="button is-success" type="button">
+                                Expandir/Recolher
+                            </button>
+                        </buttons>
+                    </header>
+                    <div id="academica" class="card-content is-hidden">
+                        <div class="content">
+                            <div class="box">
+                                <h3>Segurança e Defesa Cibernética</h3>
+                                <p> <strong>Período:</strong> Outubro de 2023 - atualmente (Em andamento) </p>
+                                <p> <strong>Instituição:</strong> <a href="https://www.uninter.com/">UNINTER - Centro
+                                        Universitário Internacional </a> </p>
+                                <p> <strong> Titulação: </strong> Pós-Graduação Lato Sensu - Especialização </p>
+                            </div>
+                            <div class="box">
+                                <h3>Ciências de Dados e Inteligência Artificial</h3>
+                                <p> <strong>Período:</strong> Janeiro de 2023 - Outubro de 2023 (Completa) </p>
+                                <p> <strong>Instituição:</strong> <a href="https://www.uninter.com/">UNINTER - Centro
+                                        Universitário Internacional </a> </p>
+                                <p> <strong> Titulação: </strong> Pós-Graduação Lato Sensu - Especialização </p>
+                            </div>
+                            <div class="box">
+                                <h3>Engenharia de Computação</h3>
+                                <p> <strong>Período:</strong> Março de 2016 - Agosto de 2022 (Completa) </p>
+                                <p> <strong>Instituição:</strong> <a href="https://www.unipampa.edu.br/">UNIPAMPA -
+                                        Universidade Federal do Pampa </a> </p>
+                                <p> <strong> Titulação: </strong> Graduação </p>
+                            </div>
+                            <div class="box">
+                                <h3>Ensino Médio</h3>
+                                <p> <strong>Período:</strong> Fevereiro de 2013 - Dezembro de 2015 (Completo) </p>
+                                <p> <strong>Instituição:</strong> <a href="https://www.cfes.com.br/">Colégio Franciscano
+                                        Espírito Santo </a> </p>
+                                <p> <strong> Titulação: </strong> Ensino Médio </p>
+                            </div>
+                            <div class="box">
+                                <h3>Ensino Fundamental</h3>
+                                <p> <strong>Período:</strong> Fevereiro de 2005 - Dezembro de 2012 (Completo) </p>
+                                <p> <strong>Instituição:</strong> <a href="https://www.cfes.com.br/">Colégio Franciscano
+                                        Espírito Santo </a> </p>
+                                <p> <strong> Titulação: </strong> Ensino Fundamental </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Certificações, Provas e Acreditações -->
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">◼ Certificações, Provas e Acreditações</p>
+                        <buttons class="is-centered is-vcentered">
+                            <button onclick="expandir_certificacoes()" class="button is-success" type="button">
+                                Expandir/Recolher
+                            </button>
+                        </buttons>
+                    </header>
+                    <div id="certificacoes" class="card-content is-hidden">
+                        <div class="content">
+                            <!-- Item 1-->
+                            <div class="box">
+                                <div class="columns is-centered is-vcentered">
+                                    <div class="column is-one-fifth">
+                                        <figure class="image is-128x128">
+                                            <img class="is-rounded" src="images/badges/oracle-ai.png" />
+                                        </figure>
+                                    </div>
+                                    <div class="column">
+                                        <h3>Oracle Cloud Infrastructure - AI Certified Foundations Associate</h3>
+                                        <p> <strong>Data de Obtenção:</strong> 05/11/2023 </p>
+                                        <p> <strong>Data de Expiração:</strong> 05/11/2024 </p>
+                                        <p> <strong>Empresa:</strong> <a href="https://www.oracle.com/">Oracle</a> </p>
+                                        <p> <strong>Tipo:</strong> Certificação </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Item 2-->
+                            <div class="box">
+                                <div class="columns is-centered is-vcentered">
+                                    <div class="column is-one-fifth">
+                                        <figure class="image is-128x128">
+                                            <img class="is-rounded" src="images/badges/compass-ai-assisted.png" />
+                                        </figure>
+                                    </div>
+                                    <div class="column">
+                                        <h3>AI-Assisted Certified Professional</h3>
+                                        <p> <strong>Data de Obtenção:</strong> 26/07/2023 </p>
+                                        <p> <strong>Data de Expiração:</strong> 26/07/2024 </p>
+                                        <p> <strong>Empresa:</strong> <a href="https://compass.uol/">Compass.uol</a>
+                                        </p>
+                                        <p> <strong>Tipo:</strong> Certificação </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Item 3-->
+                            <div class="box">
+                                <div class="columns is-centered is-vcentered">
+                                    <div class="column is-one-fifth">
+                                        <figure class="image is-128x128">
+                                            <img class="is-rounded" src="images/badges/ibsec-python.png" />
+                                        </figure>
+                                    </div>
+                                    <div class="column">
+                                        <h3>Python para Cibersegurança Associado</h3>
+                                        <p> <strong>Data de Obtenção:</strong> 17/01/2023 </p>
+                                        <p> <strong>Data de Expiração:</strong> 17/01/2024 </p>
+                                        <p> <strong>Empresa:</strong> <a href="https://ibsec.com.br/">IBSEC - Instituto
+                                                Brasileiro de Cibersegurança</a> </p>
+                                        <p> <strong>Tipo:</strong> Certificação </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Item 4-->
+                            <div class="box">
+                                <div class="columns is-centered is-vcentered">
+                                    <div class="column is-one-fifth">
+                                        <figure class="image is-128x128">
+                                            <img class="is-rounded" src="images/badges/oracle-infra.jpg" />
+                                        </figure>
+                                    </div>
+                                    <div class="column">
+                                        <h3>Oracle Cloud Infrastructure - Foundations Associate 2021</h3>
+                                        <p> <strong>Data de Obtenção:</strong> 15/02/2022 </p>
+                                        <p> <strong>Data de Expiração:</strong> 15/08/2023 </p>
+                                        <p> <strong>Empresa:</strong> <a href="https://www.oracle.com/">Oracle</a> </p>
+                                        <p> <strong>Tipo:</strong> Certificação </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Item 5-->
+                            <div class="box">
+                                <div class="columns is-centered is-vcentered">
+                                    <div class="column is-one-fifth">
+                                        <figure class="image is-128x128">
+                                            <img class="is-rounded" src="images/badges/aws-economics.png" />
+                                        </figure>
+                                    </div>
+                                    <div class="column">
+                                        <h3>AWS Partner: Cloud Economics Accreditation</h3>
+                                        <p> <strong>Data de Obtenção:</strong> 25/03/2022 </p>
+                                        <p> <strong>Empresa:</strong> <a href="https://aws.amazon.com/">AWS</a> </p>
+                                        <p> <strong>Tipo:</strong> Acreditação </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Item 6-->
+                            <div class="box">
+                                <div class="columns is-centered is-vcentered">
+                                    <div class="column is-one-fifth">
+                                        <figure class="image is-128x128">
+                                            <img class="is-rounded" src="images/badges/aws-business.png" />
+                                        </figure>
+                                    </div>
+                                    <div class="column">
+                                        <h3>AWS Partner: Accreditation (Business)</h3>
+                                        <p> <strong>Data de Obtenção:</strong> 04/03/2022 </p>
+                                        <p> <strong>Empresa:</strong> <a href="https://aws.amazon.com/">AWS</a> </p>
+                                        <p> <strong>Tipo:</strong> Acreditação </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Item 7-->
+                            <div class="box">
+                                <div class="columns is-centered is-vcentered">
+                                    <div class="column is-one-fifth">
+                                        <figure class="image is-128x128">
+                                            <img class="is-rounded" src="images/badges/aws-technical.png" />
+                                        </figure>
+                                    </div>
+                                    <div class="column">
+                                        <h3>AWS Partner: Accreditation (Technical)</h3>
+                                        <p> <strong>Data de Obtenção:</strong> 09/02/2022 </p>
+                                        <p> <strong>Empresa:</strong> <a href="https://aws.amazon.com/">AWS</a> </p>
+                                        <p> <strong>Tipo:</strong> Acreditação </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Formações e Cursos -->
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">◼ Formações e Cursos</p>
+                        <buttons class="is-centered is-vcentered">
+                            <button onclick="expandir_cursos()" class="button is-success" type="button">
+                                Expandir/Recolher
+                            </button>
+                        </buttons>
+                    </header>
+                    <div id="cursos" class="card-content is-hidden">
+                        <div class="content">
+                            <!-- Formações Realizadas-->
+                            <div class="box">
+                                <h3>Formações Realizadas</h3>
+                                <hr>
+                                <!-- Formação DevOps -->
+                                <h4><strong>Formação DevOps</strong></h4>
+                                <p><strong>Data de início/término:</strong> Outubro de 2021 / Novembro de 2021</p>
+                                <p><strong>Duração/Carga Horária:</strong> 120 horas</p>
+                                <p><strong>Empresa/Instituição:</strong> <a href="https://www.alura.com.br/">Alura</a>
+                                </p>
+                                <p>
+                                    <strong>Cursos realizados na formação:</strong>
+                                    <li>Vagrant: gerenciando máquinas virtuais
+                                    <li>Ansible: sua infraestrutura como código
+                                    <li>Terraform: automatize a infraestrutura na nuvem
+                                    <li>Docker: criando e gerenciando Containers
+                                    <li>Docker Swarm: Orquestrador de containers
+                                    <li>Kubernetes: Pods, Services e ConfigMaps
+                                    <li>Kubernetes: Deployments, Volumes e Escalabilidade
+                                    <li>Integração Contínua: mais qualidade e menos risco no desenvolvimento
+                                    <li>Entrega Contínua: confiabilidade e qualidade na implantação de software
+                                    <li>Jenkins e Docker: Pipeline de entrega continua
+                                    <li>Gitlab CI e Docker: Pipeline de entrega contínua
+                                    <li>Grafana e Telegraf: Monitoramento em tempo real
+                                </p>
+                                <hr>
+                                <!-- Formação Python -->
+                                <h4><strong>Formação Python</strong></h4>
+                                <p><strong>Data de início/término:</strong> Setembro de 2021 / Outubro de 2021</p>
+                                <p><strong>Duração/Carga Horária:</strong> 100 horas</p>
+                                <p><strong>Empresa/Instituição:</strong> <a href="https://www.alura.com.br/">Alura</a>
+                                </p>
+                                <p>
+                                    <strong>Cursos realizados na formação:</strong>
+                                    <li>Python 3 Parte 1 - Introdução a Nova Versão da Linguagem
+                                    <li>Python 3 Parte 2 - Avançando na Linguagem
+                                    <li>Python 3 - Introdução a Orientação a Objetos
+                                    <li>String em Python - Extraindo Informações de uma URL
+                                    <li>Python Collections Parte 1 - Listas e Tuplas
+                                    <li>Python Collections Parte 2 - Conjuntos e Dicionários
+                                    <li>Python Brasil - Validação de Dados no Padrão Nacional
+                                    <li>Testes Automatizados - TDD com Python
+                                </p>
+                                <hr>
+                                <!-- Formação AWS -->
+                                <h4><strong>Formação Amazon Web Services</strong></h4>
+                                <p><strong>Data de início/término:</strong> Setembro de 2021 / Outubro de 2021</p>
+                                <p><strong>Duração/Carga Horária:</strong> 80 horas</p>
+                                <p><strong>Empresa/Instituição:</strong> <a href="https://www.alura.com.br/">Alura</a>
+                                </p>
+                                <p>
+                                    <strong>Cursos realizados na formação:</strong>
+                                    <li>Deploy no Amazon EC2: alta disponibilidade e escalabilidade de uma aplicação
+                                    <li>Amazon Lightsail: descomplicando a nuvem
+                                    <li>Amazon CloudWatch: visibilidade completa das aplicações e serviços na nuvem
+                                    <li>Amazon S3: Manipule e armazene objetos na nuvem
+                                    <li>Amazon VPC: provisione uma nuvem privada
+                                    <li>Amazon Cloud Front e Route53: Distribua os seus arquivos e crie seu próprio
+                                        domínio
+                                    <li>Amazon ECS: gerencie Docker na nuvem da AWS
+                                    <li>Amazon Elastic Beanstalk Parte 1: container Docker
+                                    <li>Amazon Elastic Beanstalk Parte 2: múltiplos containers e NGINX
+                                </p>
+                                <hr>
+                                <!-- Formação Linux LPI -->
+                                <h4><strong>Formação Certificação Linux LPI Essentials</strong></h4>
+                                <p><strong>Data de início/término:</strong> Agosto de 2021 / Setembro de 2021</p>
+                                <p><strong>Duração/Carga Horária:</strong> 70 horas</p>
+                                <p><strong>Empresa/Instituição:</strong> <a href="https://www.alura.com.br/">Alura</a>
+                                </p>
+                                <p>
+                                    <strong>Cursos realizados na formação:</strong>
+                                    <li>Certificação Linux LPI Essentials parte 1: Evolution and Distributions
+                                    <li>Certificação Linux LPI Essentials parte 2: Open Source Software and Licensing
+                                    <li>Certificação Linux LPI Essentials parte 3: Command Line Basics
+                                    <li>Certificação Linux LPI Essentials parte 4: Using the command line to get help
+                                    <li>Certificação Linux LPI Essentials parte 5: Directories and Listing Files and
+                                        managing files
+                                    <li>Certificação Linux LPI Essentials parte 6: Archiving Files on the Command Line
+                                    <li>Certificação Linux LPI Essentials parte 7: Searching and Extracting Data from
+                                        Files
+                                    <li>Certificação Linux LPI Essentials parte 8: Turning Commands into a Script
+                                    <li>Certificação Linux LPI Essentials parte 9: Understanding Computer Hardware
+                                    <li>Certificação Linux LPI Essentials parte 10: Where Data is Stored
+                                    <li>Certificação Linux LPI Essentials parte 11: Your Computer on the Network
+                                    <li>Certificação Linux LPI Essentials parte 12: Security and File Permissions
+                                </p>
+                            </div>
+                            <!-- Cursos Realizados-->
+                            <div class="box">
+                                <h3>Cursos Realizados</h3>
+                                <table class="table is-fullwidth">
+                                    <thead>
+                                        <tr>
+                                            <th>Curso</th>
+                                            <th>Instituição</th>
+                                            <th>Carga Horária</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Certificação Amazon AWS Cloud Practitioner 2022 + 3 Cursos</td>
+                                            <td><a href="https://www.udemy.com/">Udemy</a></td>
+                                            <td>10 horas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Inteligência Artificial Fundamentos 2.0</td>
+                                            <td><a href="https://www.datascienceacademy.com.br/">Data Science
+                                                    Academy</a></td>
+                                            <td>8 horas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Linguagem de Programação Python - Básico</td>
+                                            <td><a href="https://www.ev.org.br/">Fundação Bradesco - Escola Virtual</a>
+                                            </td>
+                                            <td>18 horas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Python para Ciência de Dados - Formação Básica</td>
+                                            <td><a href="https://www.linkedin.com/learning/">LinkedIn Learning</a></td>
+                                            <td>4 horas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Build de uma aplicação .NET: Construindo seus Projetos com MSBUILD</td>
+                                            <td><a href="https://www.alura.com.br/">Alura</a></td>
+                                            <td>10 horas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jenkins: Integração Contínua</td>
+                                            <td><a href="https://www.alura.com.br/">Alura</a></td>
+                                            <td>8 horas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Maven: Gerenciamento de Dependências e Build de Aplicações Java</td>
+                                            <td><a href="https://www.alura.com.br/">Alura</a></td>
+                                            <td>8 horas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>The Twelve-Factor App: Metodologia para Construção de Aplicações
+                                                Robustas</td>
+                                            <td><a href="https://www.alura.com.br/">Alura</a></td>
+                                            <td>10 horas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Git e Github: Controle e Compartilhe seu Código</td>
+                                            <td><a href="https://www.alura.com.br/">Alura</a></td>
+                                            <td>6 horas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Git e Github: Estratégias de Ramificação, Conflitos e Pull Requests</td>
+                                            <td><a href="https://www.alura.com.br/">Alura</a></td>
+                                            <td>8 horas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Aprenda o que são Estruturas de Dados e Algoritmos</td>
+                                            <td><a href="https://www.dio.me/">Digital Innovation One - DIO</a></td>
+                                            <td>2 horas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>DNS: Entenda a Resolução de Nomes na Internet</td>
+                                            <td><a href="https://www.alura.com.br/">Alura</a></td>
+                                            <td>12 horas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>DevOps Essentials</td>
+                                            <td><a href="https://4linux.com.br/">4Linux</a></td>
+                                            <td>20 horas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Docker: Criando Containers Sem Dor de Cabeça</td>
+                                            <td><a href="https://www.alura.com.br/">Alura</a></td>
+                                            <td>10 horas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Redes Parte 1: Introdução, Conceitos e Prática</td>
+                                            <td><a href="https://www.alura.com.br/">Alura</a></td>
+                                            <td>10 horas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Linux 1: Conhecendo e Utilizando o Terminal</td>
+                                            <td><a href="https://www.alura.com.br/">Alura</a></td>
+                                            <td>4 horas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Linux 2: Programas, Processos e Pacotes</td>
+                                            <td><a href="https://www.alura.com.br/">Alura</a></td>
+                                            <td>8 horas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Curso Inglês Básico I</td>
+                                            <td><a href="https://www.cursosonlinesp.com.br/">Cursos Online SP do
+                                                    Brasil</a></td>
+                                            <td>60 horas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Curso Inglês Básico II</td>
+                                            <td><a href="https://www.cursosonlinesp.com.br/">Cursos Online SP do
+                                                    Brasil</a></td>
+                                            <td>60 horas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Curso Desenvolvimento Multiplataforma - Básico</td>
+                                            <td><a href="https://unipampa.edu.br/portal/">Universidade Federal do Pampa
+                                                    - UNIPAMPA</a></td>
+                                            <td>30 horas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Curso de Introdução a Segurança da Informação e de Sistemas</td>
+                                            <td><a href="https://unipampa.edu.br/portal/">Universidade Federal do Pampa
+                                                    - UNIPAMPA</a></td>
+                                            <td>40 horas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Introdução à Linguagem HTML</td>
+                                            <td><a href="https://diegomariano.com/">Professor Diego Mariano</a></td>
+                                            <td>2 horas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Introdução ào Sistema Operacional Linux</td>
+                                            <td><a href="https://diegomariano.com/">Professor Diego Mariano</a></td>
+                                            <td>2 horas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Introdução ao Python</td>
+                                            <td><a href="https://diegomariano.com/">Professor Diego Mariano</a></td>
+                                            <td>2 horas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Terminal Linux</td>
+                                            <td><a href="https://diegomariano.com/">Professor Diego Mariano</a></td>
+                                            <td>1 hora</td>
+                                        </tr>
+                                        <!-- Adicione mais linhas conforme necessário -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Artigos e Resumos Publicados -->
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">◼ Artigos e Resumos Publicados</p>
+                        <buttons class="is-centered is-vcentered">
+                            <button onclick="expandir_artigos()" class="button is-success" type="button">
+                                Expandir/Recolher
+                            </button>
+                        </buttons>
+                    </header>
+                    <div id="artigos" class="card-content is-hidden">
+                        <div class="content">
+                            <!-- Artigo 1 -->
+                            <h3>ESTIMANDO MOMENTOS DE COMPRA E VENDA DE BITCOINS USANDO ÁRVORES DE DECISÃO</h3>
+                            <li><strong>Palavras-chave: </strong>Bitcoin. Árvore de Decisão. Predição.
+                            <li><strong>Autores: </strong>
+                                Itiberê Gonçalves Silva Filho. Milton Roberto Heinen
+                            <li><strong>Tipo: </strong>Periódico
+                            <li><strong>Data de publicação: </strong>30/06/2022
+                            <li><strong>Revista/Evento: </strong><a
+                                    href="https://periodicorease.pro.br/rease/index">Revista Ibero-Americana de
+                                    Humanidades, Ciências e Educação</a>
+                            <li><strong>Publicação: </strong> <a
+                                    href="https://periodicorease.pro.br/rease/article/view/6056">Link</a>
+                                <hr>
+                                <!-- Artigo 2 -->
+                                <h3>SEGURANÇA E EXPLORAÇÃO DE VULNERABILIDADES EM DISPOSITIVOS IOT</h3>
+                            <li><strong>Palavras-chave: </strong> Internet. of. Things. Segurança. Sistemas.
+                                Vulnerabilidades. Dispositivos.
+                            <li><strong>Autores: </strong>
+                                Matheus de Jesus Marques. Itiberê Gonçalves Silva Filho. Gabriel Kitzmann Haab. Leandro
+                                Bolzan Béria. Erico Marcelo Hoff do Amaral
+                            <li><strong>Tipo: </strong>Resumo
+                            <li><strong>Data de publicação: </strong>23/11/2022
+                            <li><strong>Revista/Evento: </strong><a
+                                    href="https://periodicos.unipampa.edu.br/index.php/SIEPE/index">14° Salão
+                                    Internacional de Ensino, Pesquisa e Extensão</a>
+                            <li><strong>Publicação: </strong> <a
+                                    href="https://periodicos.unipampa.edu.br/index.php/SIEPE/article/view/113724">Link</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Projetos -->
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">◼ Projetos</p>
+                        <buttons class="is-centered is-vcentered">
+                            <button onclick="expandir_projetos()" class="button is-success" type="button">
+                                Expandir/Recolher
+                            </button>
+                        </buttons>
+                    </header>
+                    <div id="projetos" class="card-content is-hidden">
+                        <div class="content">
+                            <!-- Projeto 1 -->
+                            <h3>BEMSPampa: Balanço Energético da Metade Sul - Bioma Pampa no contexto da Transição
+                                Energética</h3>
+                            <li><strong>Tipo: </strong>Acadêmico
+                            <li><strong>Natureza: </strong>Pesquisa
+                            <li><strong>Período: </strong>Março de 2023 até Março de 2024
+                            <li><strong>Integrantes: </strong>
+                                Enoque Dutra Garcia (Coordenador). Itiberê Gonçalves Silva Filho. Caique Nunes Maria
+                                Santana. Rodrigo Buroni Machado.
+                                Carlos Sonier Cardoso do Nascimento. Erico Marcelo Hoff Do Amaral. Enoque Dutra Garcia.
+                                Thiago Prestes Rodrigues.
+                                Dominnic Gomes da Silva. Jocemar Biasi Parizzi. Sabrina Neves da Silva. Vinícius Amaro
+                                Ferreira da Silva. Ana Rosa Costa Muniz.
+                                Cristine Machado Schwanke. Marcelo Romero de Moraes. Guilherme Caneda Correia.
+                            <li><strong>Descrição: </strong>
+                            <p>
+                                O projeto de pesquisa proposto visa investigar recursos do Bioma Pampa coincidente
+                                com a mesorregião Metade Sul Rio Grandense
+                                através de levantamento de informações geoenergéticas a partir do desenvolvimento de
+                                estudo e pesquisa do potencial energético
+                                regional. Esse mapeamento consiste em desenvolver e aplicar procedimentos
+                                metodológicos para cálculos da matriz energética
+                                considerando dados obtidos a partir da consulta a diferentes órgãos, de modo, que se
+                                contribua para transição energética regional,
+                                agregue conhecimento científico e divulgue informações consolidadas. Neste sentido
+                                as referências são obtidas através de consultas
+                                nas plataformas de pesquisa e interação com as diversas instituições envolvidas com
+                                o arcabouço energético. Para o tratamento do
+                                volume de informações será realizado processo metodológico na forma de triagem,
+                                aplicado processo de prospecção de dados e
+                                desenvolvido um novo produto na forma de Atlas, provisoriamente denominado BEMSPampa
+                                (Balanço Energético da Metade Sul - Bioma
+                                Pampa). O Atlas consiste em uma ferramenta computacional constituída de relatórios
+                                que consolidam os resultados da pesquisa,
+                                com armazenamento na nuvem, disponibilizados em plataforma digital, com aplicações
+                                web como webmap e e-book. O conteúdo do Atlas
+                                abrange, entre outros, registros de outorgas, históricos anemométricos e
+                                solarimétricos, inventários hidrelétricos, potencial
+                                termelétrico, disponibilidade de fontes alternativas como biomassa, biodiesel,
+                                biogás e hidrogênio verde. Assim, para prospecção
+                                tecnológica se recorre a conceitos inovadores no contexto da Transição Energética e
+                                Indústria 4.0, que abrange a Modernização do
+                                Setor Elétrico Brasileiro, a expansão dos Recursos Energéticos Distribuídos, a
+                                transformação digital pelas Redes Elétricas
+                                Inteligentes e a implementação de Usinas Híbridas. Nesta lógica, busca-se o
+                                engajamento da comunidade universitária na pesquisa,
+                                a compreensão ampla da sociedade sobre os recursos energéticos do Bioma Pampa e, por
+                                conseguinte, o estímulo ao desenvolvimento
+                                da mesorregião Metade Sul Rio-Grandense. Neste aspecto, se faz a integração da
+                                Universidade às questões socioambientais para
+                                promover soluções baseadas no conhecimento científico. Assim, o projeto está
+                                alinhado aos objetivos de criação da Unipampa,
+                                ratificadas no seu PDI 2019-2023 (Plano de Desenvolvimento Institucional), nas
+                                justificativas do estabelecimento dos Cursos de
+                                Graduação e Pós-Graduação, como exemplo, os Projetos Pedagógicos de Cursos (PPC) das
+                                engenharias ofertadas no Campus Bagé. Dessa
+                                forma, o escopo do projeto abrange os fundamentos das Diretrizes Curriculares
+                                Nacionais para ensino de engenharia e está em
+                                consonância com a política de iniciação científica da Universidade, já que promove o
+                                compartilhamento de saberes entre
+                                pesquisadores, estudantes, empresários, autoridades e profissionais, ou seja, a
+                                comunidade como um todo. De outra parte, a equipe
+                                é formada por pesquisadores, bolsistas e voluntários de diferentes áreas da
+                                Engenharia, o que é relevante para execução do projeto,
+                                pois este inclui os segmentos eólica, solar, hidráulica, bioenergia (biomassa,
+                                biogás, hidrogênio) e carboquímica. Portanto, ao
+                                longo do período de execução do projeto BEMSPampa, estão planejadas forças-tarefas
+                                como saídas de campo, levantamento de dados,
+                                modelagem, simulação, metodologia de previsão, entre outras ações para mapeamento do
+                                potencial energético dos diferentes segmentos
+                                do setor elétrico na mesorregião Metade Sul do RS.
+                            </p>
+                            <hr>
+                            <!-- Projeto 2 -->
+                            <h3>Grupo de Estudos em Segurança da Informação e de Sistemas (GSI)</h3>
+                            <li><strong>Tipo: </strong>Acadêmico
+                            <li><strong>Natureza: </strong>Pesquisa
+                            <li><strong>Período: </strong>Maio de 2022 até Outubro de 2022
+                            <li><strong>Integrantes: </strong>
+                                Erico Marcelo Hoff do Amaral (Coordenador). Itiberê Gonçalves Silva Filho.
+                                Matheus de Jesus Marques. Gabriel Kitzmann Haab. Leandro Bolzan Béria.
+                            <li><strong>Descrição: </strong>
+                            <p>
+                                A evolução dos sistemas computacionais e das Tecnologias de Informação, aliadas ao
+                                crescimento do uso de sistemas de armazenamento de dados, aumentam de forma
+                                exponencial a dependência dos usuários e organizações de uma estrutura confiável e
+                                segura. A ocorrência de incidentes de segurança da informação, com a perda, roubo ou
+                                exposição indevida de dados são fatores de grande relevância neste tipo de situação,
+                                as quais implicam, inevitavelmente, em relevantes prejuízos. Este projeto de
+                                pesquisa vislumbra desenvolver um conjunto de estudos alinhados as diferentes áreas
+                                envolvidas com o tema segurança da informação, pautando temas como vulnerabilidade
+                                de sistemas, forense computacional, segurança em dispositivos móveis e por fim
+                                segurança e monitoramento de ambientes de rede.
+                            </p>
+                            <hr>
+                            <!-- Projeto 3 -->
+                            <h3>Desvendando a Fatura de Energia Elétrica</h3>
+                            <li><strong>Tipo: </strong>Acadêmico
+                            <li><strong>Natureza: </strong>Extensão
+                            <li><strong>Período: </strong>Maio de 2022 até Outubro de 2022
+                            <li><strong>Integrantes: </strong>
+                                Carlos Sonier Cardoso do Nascimento (Coordenador). Itiberê Gonçalves Silva Filho.
+                                Caique Nunes Maria Santana. Carolina Muniz de Oliveira. Rodrigo Buroni Machado.
+                            <li><strong>Descrição: </strong>
+                            <p>
+                                Para efetuar o cálculo da fatura de energia, todo mês é feita a leitura do medidor
+                                de energia da empresa ou residência para saber qual o consumo em kWh. O consumo
+                                mensal é calculado pela diferença entre a leitura do mês atual e a leitura do mês
+                                anterior. Entender o funcionamento da conta de luz é um processo importante para
+                                saber se ocorrem alterações nos valores para as residências. Mensalmente recebemos
+                                as contas, com vários números, várias informações e não sabemos se estamos pagando
+                                certo, se o valor está sendo tributado da forma correta, se existe algum incentivo
+                                que a gente poderia estar trazendo. A partir deste contexto, o seguinte projeto de
+                                extensão propõe elaboração de workshops através de metodologias ativas de
+                                aprendizagem pelos discentes do curso de Engenharia de Energia, onde serão
+                                realizados nas escolas públicas e privadas de Bagé e Região. Assim, questões
+                                relacionadas com o entendimento da fatura de energia elétrica são os Problemas -
+                                Alvo. Como atividades práticas, são apresentadas maquetes que simulam instalações
+                                elétricas residenciais e o uso de equipamentos eletroeletrônicos. Logo, os
+                                participantes poderão aprender como se calcula os gastos com eletricidade e o uso
+                                eficiente dos mesmos. Também, é requerido o porte da fatura do último mês para os
+                                participantes, onde será trabalhado o seu entendimento. Como relatório final, os
+                                discentes adquirem dados das faturas de energia elétrica pelos participantes,
+                                formatando um mapa topográfico do consumo residencial local, que poderá servir como
+                                base para futuros projetos de pesquisa.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Participações em Eventos -->
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">◼ Participações em Eventos</p>
+                        <buttons class="is-centered is-vcentered">
+                            <button onclick="expandir_eventos()" class="button is-success" type="button">
+                                Expandir/Recolher
+                            </button>
+                        </buttons>
+                    </header>
+                    <div id="eventos" class="card-content is-hidden">
+                        <div class="content">
+                            <!-- Lista de Eventos -->
+                            <li>Gamedev - Toolkit 2023. 2023 (Outra)
+                            <li>CPEn Jr - Consultoria e Projetos de Engenharia: Cinepampa - The Batman. 2022 (Encontro).
+                            <li>AIoT: Artificial Intelligence of things: Dados da IoT somados à IA para inovação. 2022. (Outra).
+                            <li>III Jornada de Física do IFB. 2022. (Seminário).
+                            <li>Inteligência artificial: conceituação e aplicações. 2022. (Outra).
+                            <li>Inteligência Artificial em tecnologias de fala: Análise de emoção ou Emotional AI. 2022. (Outra).
+                            <li>Inteligência Artificial em tecnologias de fala: Identidade de gênero e faixa etária. 2022. (Outra).
+                            <li>Semana da Tecnologia - Desafios e Oportunidades. 2022. (Outra).
+                            <li>13º Salão Internacional de Ensino, Pesquisa e Extensão - SIEPE. 2021. (Exposição).
+                            <li>Conect@ SBIAGRO 2021 - Painéis de Inovação Aberta. 2021. (Outra).
+                            <li>IVSWPB 2021. 2021. (Seminário).
+                            <li>Mentorama - A importância do Python para análise de dados. 2021. (Outra).
+                            <li>Mentorama - Java: As principais habilidades que todo desenvolvedor deveria ter (e poucos sabem disso). 2021. (Outra).
+                            <li>Reunião Magna Virtual da ABC 2021 - Ciência: A Fronteira Infinita. 2021. (Outra).
+                            <li>RPGeek. 2021. (Outra).
+                            <li>Semana Acadêmica Integrada do Campus Bagé 2021/1 pelo curso de Engenharia de Computação. 2021. (Outra).
+                            <li>Semana da Astronáutica 2021. 2021. (Outra).
+                            <li>Semana da Ciência 2021 - 1ª Edição. 2021. (Outra).
+                            <li>Semana da Ciência 2021 - 2ª Edição. 2021. (Outra).
+                            <li>Simpósios Científicos dos Membros Afiliados da ABC - ED.04 - Química de Materiais e Alimentos. 2021. (Simpósio).
+                            <li>Simpósios Científicos dos Membros Afiliados da ABC - ED.06 - Biologia e Recursos Naturais. 2021. (Simpósio).
+                            <li>WEBINÁRIOS DA ABC - ED 37. Algoritmos comandam a sociedade e precisam de controles. 2021. (Outra).
+                            <li>WEBINÁRIOS DA ABC - ED 40. Endosso da ABC à Década da Ciência Oceânica. 2021. (Outra).
+                            <li>1° Ciclo do SaberEQ. 2020. (Outra).
+                            <li>2° Ciclo do SaberEQ. 2020. (Outra).
+                            <li>I Jornada de Física do IFB. 2020. (Seminário).
+                            <li>I Semana da Celulose do LCP/UFV. 2020. (Seminário).
+                            <li>Palestra e Bate Papo sobre Ataques de DDoS Amplificados. 2020. (Outra).
+                            <li>Tchelinux Bagé 2019. 2019. (Seminário).
+                            <li>Tchelinux Bagé 2018. 2018. (Seminário).
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </container>
+    </section>
+    <script>
+        function telefone() {
+            alert('Telefone/Whatsapp para contato: 5553991219095')
+        }
+        function email() {
+            alert('Email para contato: itibere.filho@gmail.com')
+        }
+        function linkedin() {
+            window.open("https://www.linkedin.com/in/itibere10/", "_blank")
+        }
+        function github() {
+            window.open("https://github.com/Itibere10", "_blank")
+        }
+        function lattes() {
+            window.open("http://lattes.cnpq.br/3802634002086161", "_blank")
+        }
+        function expandir_profissional() {
+            var profissional = document.getElementById('profissional');
+            profissional.classList.toggle('is-hidden');
+        }
+        function expandir_academica() {
+            var academica = document.getElementById('academica');
+            academica.classList.toggle('is-hidden');
+        }
+        function expandir_certificacoes() {
+            var certificacoes = document.getElementById('certificacoes');
+            certificacoes.classList.toggle('is-hidden');
+        }
+        function expandir_cursos() {
+            var cursos = document.getElementById('cursos');
+            cursos.classList.toggle('is-hidden');
+        }
+        function expandir_artigos() {
+            var artigos = document.getElementById('artigos');
+            artigos.classList.toggle('is-hidden');
+        }
+        function expandir_projetos() {
+            var projetos = document.getElementById('projetos');
+            projetos.classList.toggle('is-hidden');
+        }
+        function expandir_eventos() {
+            var eventos = document.getElementById('eventos');
+            eventos.classList.toggle('is-hidden');
+        }
+    </script>
+</body>
+
+</html>
