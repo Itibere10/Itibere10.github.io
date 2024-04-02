@@ -19,6 +19,18 @@
                         <figure class="image">
                             <img class="is-rounded" src="images/profile.jpg" alt="Foto de perfil" />
                         </figure>
+                        <hr>
+                        <!-- Versões de currículos-->
+                        <div class="content">
+                            <div class="buttons is-centered is-vcentered">
+                                <button onclick="ingles()" class="button is-info" type="button">
+                                    Versão em Inglês
+                                </button>
+                                <button onclick="resumido()" class="button is-info" type="button">
+                                    Currículo Compacto
+                                </button>
+                            </div>
+                        </div>
                     </div>
                     <div class="column">
                         <!-- Nome completo -->
@@ -856,6 +868,12 @@
             </container>
     </section>
     <script>
+        function ingles() {
+            alert('Ainda em desenvolvimento!')
+        }
+        function resumido() {
+            window.location.href="compacto.html";
+        }
         function telefone() {
             alert('Telefone/Whatsapp para contato: 5553991219095')
         }
