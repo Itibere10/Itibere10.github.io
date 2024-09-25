@@ -1,0 +1,19 @@
+name: ci 
+on:
+  push:
+    branches:
+      - main
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      #- uses: actions/checkout@v4
+      - name: Install dependences
+        run: |
+          pip install mkdocs
+          pip install mkdocs-material
+      - name: Build MKDocs website
+      - name: Deploy MKDocs website to GitHub Pages
+          mkdocs gh-deploy --force
