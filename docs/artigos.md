@@ -4,7 +4,7 @@
 
 ## BEMSPampa: Balanço Energético da Metade Sul - Bioma Pampa no contexto da Transição Energética
 
-- **Palavras-chave:** Internet. of. Things. Segurança. Sistemas. Vulnerabilidades. Dispositivos.
+- **Palavras-chave:** Recursos energeticos. matriz eletroenergetica. bioma pampa. atlas.
 - **Autores:** Vinicius Amaro Ferreira Silva. Enoque Dutra Garcia. Dominnic Gomes Silva. Rodrigo Buroni Machado. Thiago Prestes Rodrigues. Itiberê Gonçalves Silva Filho. Caique Nunes Maria Santana
 - **Tipo:** Artigo
 - **Data de publicação:** 23/11/2022
