@@ -1,3 +1,0 @@
-# Currículo Compacto
-
-⚠️⚠️ Em desenvolvimento..
