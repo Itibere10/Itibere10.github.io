@@ -2,7 +2,7 @@
 
 <div style="display: flex; align-items: center; justify-content: space-between;">
     <div style="width: 65%; align-items: center;">
-        <p>Analista DevOps Jr | Pós-graduado em Ciências de Dados e Inteligência Artificial | Pós-graduado em Segurança e Defesa Cibernética | Graduado em Engenhenharia de Computação</p>
+        <p>Analista DevOps Jr | Pós-graduado em Ciências de Dados e Inteligência Artificial | Pós-graduado em Segurança e Defesa Cibernética | Graduado em Engenharia de Computação</p>
     </div>
     <div style="width: 35%;">
         <div style="text-align: center;">

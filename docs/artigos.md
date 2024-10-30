@@ -2,6 +2,17 @@
 
 ---
 
+## Desenvolvimento de webmapa com tecnologias alternativas e softwares livre: plataforma de dados geoenergéticos do BEMSPampa
+
+- **Palavras-chave:** Geoenergia. Bioma. Transição energética.
+- **Autores:** Vinicius Silva. Guilherme Caneda Correia. Rodrigo Buroni Machado. Itiberê Gonçalves Silva Filho. Dominnic Gomes da Silva. Enoque Dutra Garcia
+- **Tipo:** Resumo
+- **Data de publicação:** 16/10/2024
+- **Revista/Evento:** [16° Salão de inovação, ensino, pesquisa e extensão - SIEPE](https://periodicos.unipampa.edu.br/index.php/SIEPE)
+- **Publicação:** [Link](https://periodicos.unipampa.edu.br/index.php/SIEPE/article/view/118276)
+
+---
+
 ## BEMSPampa: Balanço Energético da Metade Sul - Bioma Pampa no contexto da Transição Energética
 
 - **Palavras-chave:** Recursos energeticos. matriz eletroenergetica. bioma pampa. atlas.
